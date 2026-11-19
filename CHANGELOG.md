@@ -1,4 +1,7 @@
-# Change of Fusion360 ScriptLauncher
+# Change of Autodesk Fusion ScriptLauncher
+
+## 1.0.0
++ 正式版としてリリース
 
 ## 0.1.6
 + スクリプトアイコンの読み込みをスクリプトフォルダ内・画像拡張子・1MB以下に制限（パストラバーサル対策）

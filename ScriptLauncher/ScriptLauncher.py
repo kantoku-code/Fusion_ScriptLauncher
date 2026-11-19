@@ -1,4 +1,4 @@
-# Fusion360API Python Addin
+# Autodesk Fusion API Python Addin
 import adsk.core as core
 import traceback
 import json

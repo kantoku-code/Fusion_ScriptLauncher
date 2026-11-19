@@ -1,4 +1,4 @@
-# Fusion360API Python Addin
+# Autodesk Fusion API Python Addin
 
 import pathlib
 import traceback
@@ -52,7 +52,7 @@ ICON_MAX_BYTES = 1024 * 1024
 
 @dataclass
 class ScriptContainer:
-    """Fusion 360 スクリプト1件を保持するコンテナ。ツリー表示に必要な情報を提供する。"""
+    """Autodesk Fusion スクリプト1件を保持するコンテナ。ツリー表示に必要な情報を提供する。"""
 
     id: int
     script: core.Script
@@ -127,7 +127,7 @@ class ScriptContainer:
 
 
 class ScriptsManager():
-    """Fusion 360 のスクリプト一覧を管理し、ツリー表示向けデータを提供するクラス。"""
+    """Autodesk Fusion のスクリプト一覧を管理し、ツリー表示向けデータを提供するクラス。"""
 
     def __init__(self) -> None:
         """インストールフォルダとスクリプト一覧を初期化する。"""
